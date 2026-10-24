@@ -1,0 +1,33 @@
+ankara-pattern-classifier/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── SOURCES.csv
+│   ├── labelling_guide.md
+│   └── README.md
+│
+├── notebooks/
+│   ├── 01_exploration.ipynb
+│   ├── 02_baseline.ipynb
+│   ├── 03_finetune.ipynb
+│   └── 04_evaluation.ipynb
+│
+├── src/
+│   ├── dataset.py
+│   ├── train.py
+│   └── evaluate.py
+│
+├── app/
+│   ├── app.py
+│   └── examples/
+│
+├── results/
+│   ├── metrics.csv
+│   ├── confusion_matrix.png
+│   └── figures/
+│
+└── models/
+    └── README.md
